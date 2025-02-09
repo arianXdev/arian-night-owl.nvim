@@ -6,7 +6,7 @@ local default_options = {
 	italics = true,
 	underline = true,
 	undercurl = true,
-	transparent_background = false,
+	transparent_background = true,
 }
 
 ---@type Config

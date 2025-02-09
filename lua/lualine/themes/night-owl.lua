@@ -12,7 +12,7 @@ local colors = {
 
 local night_owl = {
 	normal = {
-		a = { bg = colors.magenta, fg = colors.dark, gui = "bold" },
+		a = { bg = colors.cyan, fg = colors.dark, gui = "bold" },
 		b = { bg = colors.dark, fg = colors.light },
 		c = { bg = colors.dark, fg = colors.light },
 	},

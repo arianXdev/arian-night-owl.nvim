@@ -11,7 +11,7 @@ function theme.set_highlights(options)
 
 	-- highlights
 	hl(0, "Normal", { fg = palette.fg, bg = background_color })
-	hl(0, "SignColumn", { fg = "NONE", bg = palette.bg })
+	hl(0, "SignColumn", { fg = "NONE", bg = background_color })
 	hl(0, "Pmenu", { fg = "NONE", bg = palette.dark })
 	hl(0, "PmenuSel", { fg = "NONE", bg = palette.quickfix_line })
 	hl(0, "Comment", { fg = palette.dark_cyan, bg = "NONE", italic = options.italics })
